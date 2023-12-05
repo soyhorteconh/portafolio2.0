@@ -18,28 +18,45 @@ export const info = {
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "Designed of a mini Autonomous Vehicle w/ Manchester Robotics",
+      location: "Nuevo León, México",
+      startDate: "Mar 2023",
+      endDate: "Jun 2023",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "Developed software using ROS, OpenCV libraries in python, and Yolov5 to create an autonomous vehicle implementing PID controllers, and computer vision for traffic lights and signals detection.",
       ],
     },
 
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Robotics Developer @ Vanttec",
+      location: "Nuevo León, México",
+      startDate: "Aug 2022",
+      endDate: "Aug 2023",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "- Conducted research within the college program to develop a software prototype for object detection in an Unmanned Underwater Vehicle using Roboflow, the YoloV5 library, and ROS (Awarded in software prototype category at Expo Ingenierías 2022). ",
+        "- Performed PCB assembly",
+      ],
+    },
+
+    {
+      name: "Social Responsibility Director @ College Robotics Association (SAIRS)",
+      location: "Nuevo León, México",
+      startDate: "Jul 2022",
+      endDate: "Jun 2023",
+      description: [
+        "- Lead and organized the “Sin Miedo a la Corriente” program, enrolling children in science and technology fields, with a total of 75 volunteers and participants for a robotics camp.",
+        "-  Spearheaded the “Women2Connect” program, which is an event from women to women, facilitating monthly meetings to create support networks and share experiences among women in engineering, with 30 women participants in the robotics filed. ",
+      ],
+    },
+
+    {
+      name: "Aztech Robotics Coach Program @ FIRST Robotics Competition",
+      location: "Mexico City, México",
+      startDate: "Aug 2019",
+      endDate: "Aug 2020",
+      description: [
+        "- Coach and leader of 32 High School students in the design, construction, and programming of a robot using advanced robotics for the FIRST Tech Challenge competition. ",
+        "- Software developer for a First Robotics Competition team, using C++ and LabVIEW programming languages to design autonomous and teleoperated moods for a robot. ",
       ],
     },
   ],
@@ -52,7 +69,7 @@ export const info = {
       endDate: "Jun 2024",
       description: [
         "Expected graduation date: June 2024.",
-        "Member of the 7the generation of Líderes del Mañana scholarship.",
+        "Member of the 7th generation of Líderes del Mañana scholarship.",
       ],
     },
   ],
