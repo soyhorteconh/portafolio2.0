@@ -7,7 +7,7 @@ export const info = {
 
   experience: [
     {
-      name: "Research and Developer Intern @ INRIA ",
+      name: "Research and Developer Intern @Inria ",
       location: "Nancy, France",
       startDate: "Sep 2023",
       endDate: "Dec 2023",
@@ -18,7 +18,7 @@ export const info = {
     },
 
     {
-      name: "Designed of a mini Autonomous Vehicle w/ Manchester Robotics",
+      name: "Designed of a mini Autonomous Vehicle w/Manchester Robotics",
       location: "Nuevo León, México",
       startDate: "Mar 2023",
       endDate: "Jun 2023",
@@ -28,7 +28,7 @@ export const info = {
     },
 
     {
-      name: "Robotics Developer @ Vanttec",
+      name: "Robotics Developer @Vanttec",
       location: "Nuevo León, México",
       startDate: "Aug 2022",
       endDate: "Aug 2023",
@@ -39,7 +39,7 @@ export const info = {
     },
 
     {
-      name: "Social Responsibility Director @ College Robotics Association (SAIRS)",
+      name: "Social Responsibility Director @College Robotics Association (SAIRS)",
       location: "Nuevo León, México",
       startDate: "Jul 2022",
       endDate: "Jun 2023",
@@ -50,7 +50,7 @@ export const info = {
     },
 
     {
-      name: "Aztech Robotics Coach Program @ FIRST Robotics Competition",
+      name: "Aztech Robotics Coach Program @FIRST Robotics Competition",
       location: "Mexico City, México",
       startDate: "Aug 2019",
       endDate: "Aug 2020",
@@ -82,11 +82,35 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Visual Servoing using Visual Markers and Azure Kinect sensor: Tracking a dishwasher with Tiago @Inria",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "/assets/images/tiago.jpg",
+      githubUrl: "https://github.com/soyhorteconh/Visual_Servoing_AprilTags_Tiago",
+      liveUrl: "https://youtu.be/yUcmC3FrjIs?si=YCU2Yl-NUBe2RtBn",
+    },
+    {
+      title: "Mini Autonomous Vehicle using ROS w/Manchester Robotics",
+      isFeatured: true,
+      thumbnail: "/assets/images/puzzlebot.png",
+      githubUrl: "https://github.com/soyhorteconh/Complete_design_of_a_hardware_architecture_to_generate_an_arcade_game_using_FPGA",
+      liveUrl: "https://youtu.be/77gnFxZoYIk?si=tn5KtEiKdXyQDMPk",
+    },
+    {
+      title: "Hardware architecture for an arcade videogame using FPGA's w/Intel",
+      isFeatured: true,
+      thumbnail: "/assets/images/videogame.png",
+      githubUrl: "https://github.com/soyhorteconh/Complete_design_of_a_hardware_architecture_to_generate_an_arcade_game_using_FPGA",
+      liveUrl: "https://youtu.be/JP0nYJHBPCY",
+    },
+  ],
+
+  achievemnts: [
+    {
+      title: "Hack Mty",
+      isFeatured: true,
+      thumbnail: "/assets/images/tiago.jpg",
+      githubUrl: "https://github.com/soyhorteconh/Visual_Servoing_AprilTags_Tiago",
+      liveUrl: "https://youtu.be/yUcmC3FrjIs?si=YCU2Yl-NUBe2RtBn",
     },
   ],
 };

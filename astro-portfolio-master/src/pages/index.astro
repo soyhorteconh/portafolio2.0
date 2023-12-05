@@ -23,6 +23,22 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
       description={info.about}
       ogImageUrl={"/assets/images/horte.png"}
     />
+    <style>
+        /* Estilos para las columnas (puedes personalizar según sea necesario) */
+        .column {
+            width: 50%;
+            box-sizing: border-box;
+            padding: 10px;
+            float: left;
+        }
+
+        /* Clearfix para evitar problemas de flotación */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
   </head>
 
   <body>
@@ -34,6 +50,38 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
       <section>
         <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
         <ProjectsWrapper projects={featureProjects} />
+        <h2 class="w-[15rem] dark:text-light mt-16">ACHIEVEMENTS</h2>
+
+        <!-- ACHIEVEMENTS -->
+        <!-- Columna 1 -->
+        <div class="column">
+            <h3 class="w-[15rem] dark:text-light mt-16">Second-place winner at HackMTY 2022</h3>
+            <a href="https://devpost.com/software/sistec" target="_blank">
+                <img src="/assets/images/HackMty.png" title="HackMty2022" width="100%" alt="HackMty">
+            </a>
+            <h3 class="w-[15rem] dark:text-light mt-16">Líderes del Mañana Scholarship @Tecnológico de Monterrey</h3>
+            <a href="https://conecta.tec.mx/es/noticias/nacional/educacion/lideres-del-manana" target="_blank">
+                <img src="/assets/images/ldm.png" title="Líderes del Mañana" width="100%" alt="HackMty">
+            </a>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="column">
+            <h3 class="w-[15rem] dark:text-light mt-16">Awarded at Expo Ingenierías 2022</h3>
+            <a href="https://devpost.com/software/sistec" target="_blank">
+                <img src="/assets/images/ExpoIng.png" title="Expo Ingenierías" width="100%" alt="HackMty">
+            </a>
+            <h3 class="w-[15rem] dark:text-light mt-16">FIRST Robotics Championship Houston 2018 and 2019</h3>
+            <a href="https://www.thebluealliance.com/team/4775/history" target="_blank">
+                <img src="/assets/images/First.png" title="First Robotics Competition" width="100%" alt="HackMty">
+            </a>
+        </div>
+
+
+        <!-- Clearfix para evitar problemas de flotación -->
+        <div class="clearfix"></div>
+
+
       </section>
     </Layout>
   </body>
