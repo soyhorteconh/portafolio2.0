@@ -7,13 +7,13 @@ export const info = {
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "Research and Developer Intern @ INRIA ",
+      location: "Nancy, France",
+      startDate: "Sep 2023",
+      endDate: "Dec 2023",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "RoboHand Navigator: Enhancing robot hand pose using Azure Kinect SDK sensor and visual markers tracking for object manipulation with Tiago for the EUROBIN project at Larsen Team.",
+        "- Using ROS, AprilTag library, and C++.",
       ],
     },
 
@@ -46,27 +46,14 @@ export const info = {
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "B.S. in Robotics and Digital Systems @Tecnológico de Monterrey",
+      location: "Nuevo León, México",
+      startDate: "Aug 2020",
+      endDate: "Jun 2024",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "Expected graduation date: June 2024.",
+        "Member of the 7the generation of Líderes del Mañana scholarship.",
       ],
-    },
-    {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
     },
   ],
 
