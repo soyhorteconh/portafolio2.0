@@ -96,11 +96,25 @@ export const info = {
       liveUrl: "https://youtu.be/77gnFxZoYIk?si=tn5KtEiKdXyQDMPk",
     },
     {
+      title: "Ducks detection with traveled distance aproximation",
+      isFeatured: true,
+      thumbnail: "/assets/images/ducks.png",
+      githubUrl: "https://github.com/soyhorteconh/Ducks_distance_detection",
+      liveUrl: "https://youtu.be/BHiRZZy_hjA",
+    },
+    {
       title: "Hardware architecture for an arcade videogame using FPGA's w/Intel",
       isFeatured: true,
       thumbnail: "/assets/images/videogame.png",
       githubUrl: "https://github.com/soyhorteconh/Complete_design_of_a_hardware_architecture_to_generate_an_arcade_game_using_FPGA",
       liveUrl: "https://youtu.be/JP0nYJHBPCY",
+    },
+    {
+      title: "Research Project: Bioinformatic analysis of differentially expressed genes in colon cancer using Rstudio (SMBB 2021, p.403).",
+      isFeatured: false,
+      thumbnail: "/assets/images/cancer_colon.png",
+      githubUrl: "https://github.com/soyhorteconh/Bioinformatic_analysis_of_differentially_expressed_genes_in_the_colon_cancer_development",
+      liveUrl: "https://smbb.mx/wp-content/uploads/2022/03/Revista-vol-25_4-MEMORIAS-XIX-Congreso-Nacional.pdf",
     },
   ],
 
