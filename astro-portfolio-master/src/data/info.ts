@@ -78,6 +78,7 @@ export const info = {
     github: "https://github.com/soyhorteconh",
     email: "mailto:ha.ramirezv@outlook.com",
     linkedin: "https://www.linkedin.com/in/hortencia-alejandra-ram%C3%ADrez-v%C3%A1zquez-7739ab220/",
+    youtube: "https://www.youtube.com/channel/UCN9pbwRLRuZdgPw4gFtzzvg",
   },
 
   projects: [
