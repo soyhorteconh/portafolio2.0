@@ -7,12 +7,13 @@ export const info = {
 
   experience: [
     {
-      name: "Research and Developer Intern @Inria ",
+      name: "Research and Developer Intern @Inria w/Serena Ivaldi ",
       location: "Nancy, France",
       startDate: "Sep 2023",
       endDate: "Dec 2023",
       description: [
         "RoboHand Navigator: Enhancing robot hand pose using Azure Kinect SDK sensor and visual markers tracking for object manipulation with Tiago for the EUROBIN project at Larsen Team.",
+        "- Supervised by Serena Ivaldi, Jean-Baptiste Mouret, and Quentin Rouxel.",
         "- Using ROS, AprilTag library, and C++.",
       ],
     },
@@ -34,7 +35,7 @@ export const info = {
       endDate: "Aug 2023",
       description: [
         "- Conducted research within the college program to develop a software prototype for object detection in an Unmanned Underwater Vehicle using Roboflow, the YoloV5 library, and ROS (Awarded in software prototype category at Expo Ingenierías 2022). ",
-        "- Performed PCB assembly",
+        "- Performed PCB assembly.",
       ],
     },
 
@@ -112,7 +113,7 @@ export const info = {
     },
     {
       title: "Research Project: Bioinformatic analysis of differentially expressed genes in colon cancer using Rstudio (SMBB 2021, p.403).",
-      isFeatured: false,
+      isFeatured: true,
       thumbnail: "/assets/images/cancer_colon.png",
       githubUrl: "https://github.com/soyhorteconh/Bioinformatic_analysis_of_differentially_expressed_genes_in_the_colon_cancer_development",
       liveUrl: "https://smbb.mx/wp-content/uploads/2022/03/Revista-vol-25_4-MEMORIAS-XIX-Congreso-Nacional.pdf",
