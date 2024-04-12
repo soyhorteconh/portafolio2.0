@@ -7,6 +7,18 @@ export const info = {
 
   experience: [
     {
+      name: "Embedded Software Intern @John Deere",
+      location: "Nuevo León, México",
+      startDate: "Mar 2024",
+      endDate: "Present",
+      description: [
+        "RoboHand Navigator: Enhancing robot hand pose using Azure Kinect SDK sensor and visual markers tracking for object manipulation with Tiago for the EUROBIN project at Larsen Team.",
+        "- Supervised by Serena Ivaldi, Jean-Baptiste Mouret, and Quentin Rouxel.",
+        "- Using ROS, AprilTag library, and C++.",
+      ],
+    },
+
+    {
       name: "Research and Developer Intern @Inria w/Serena Ivaldi ",
       location: "Nancy, France",
       startDate: "Sep 2023",
@@ -19,17 +31,7 @@ export const info = {
     },
 
     {
-      name: "Designed of a mini Autonomous Vehicle w/Manchester Robotics",
-      location: "Nuevo León, México",
-      startDate: "Mar 2023",
-      endDate: "Jun 2023",
-      description: [
-        "Developed software using ROS, OpenCV libraries in python, and Yolov5 to create an autonomous vehicle implementing PID controllers, and computer vision for traffic lights and signals detection.",
-      ],
-    },
-
-    {
-      name: "Robotics Developer @Vanttec",
+      name: "Software Developer @Vanttec",
       location: "Nuevo León, México",
       startDate: "Aug 2022",
       endDate: "Aug 2023",
@@ -40,13 +42,12 @@ export const info = {
     },
 
     {
-      name: "Social Responsibility Director @College Robotics Association (SAIRS)",
+      name: "Designed of a mini Autonomous Vehicle w/Manchester Robotics",
       location: "Nuevo León, México",
-      startDate: "Jul 2022",
+      startDate: "Mar 2023",
       endDate: "Jun 2023",
       description: [
-        "- Lead and organized the “Sin Miedo a la Corriente” program, enrolling children in science and technology fields, with a total of 75 volunteers and participants for a robotics camp.",
-        "-  Spearheaded the “Women2Connect” program, which is an event from women to women, facilitating monthly meetings to create support networks and share experiences among women in engineering, with 30 women participants in the robotics filed. ",
+        "Developed software using ROS, OpenCV libraries in python, and Yolov5 to create an autonomous vehicle implementing PID controllers, and computer vision for traffic lights and signals detection.",
       ],
     },
 
