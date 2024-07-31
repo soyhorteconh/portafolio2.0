@@ -1,32 +1,30 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Horte Ramírez!",
-  jobDescription: "Web Developer",
-  about: `I’m a Robotics engineering student @Tecnológico de Monterrey.`,
-  paragraph: 'My academic path has been fueled by an insatiable curiosity and a constant eagerness to learn about various robotics-related topics.',
+  name: "Hortencia A. Ramírez-Vázquez",
+  jobDescription: "Robotics Engineer",
+  about: `I’m a M.S. in Computational Science student @Tecnológico de Monterrey.`,
+  paragraph: 'My academic path has been fueled by an insatiable curiosity and a constant eagerness to learn about various robotics-related topics. I’m a passionate about research and development.',
 
   experience: [
     {
       name: "Embedded Software Intern @John Deere",
       location: "Nuevo León, México",
-      startDate: "Mar 2024",
-      endDate: "Present",
+      startDate: "Feb 2024",
+      endDate: "Jun 2024",
       description: [
-        "RoboHand Navigator: Enhancing robot hand pose using Azure Kinect SDK sensor and visual markers tracking for object manipulation with Tiago for the EUROBIN project at Larsen Team.",
-        "- Supervised by Serena Ivaldi, Jean-Baptiste Mouret, and Quentin Rouxel.",
-        "- Using ROS, AprilTag library, and C++.",
+        "Maintenance and support of Vehicle Network System database, working with CAN and J1939 protocols, analyzing, designing, building, testing, and deploying highly integrated complex solutions.",
       ],
     },
 
     {
-      name: "Research and Developer Intern @Inria w/Serena Ivaldi ",
+      name: "Research and Development Intern @Inria w/Serena Ivaldi ",
       location: "Nancy, France",
       startDate: "Sep 2023",
       endDate: "Dec 2023",
       description: [
         "RoboHand Navigator: Enhancing robot hand pose using Azure Kinect SDK sensor and visual markers tracking for object manipulation with Tiago for the EUROBIN project at Larsen Team.",
         "- Supervised by Serena Ivaldi, Jean-Baptiste Mouret, and Quentin Rouxel.",
-        "- Using ROS, AprilTag library, and C++.",
+        "- Using ROS, AprilTag library, C++, and Docker.",
       ],
     },
 
@@ -41,15 +39,6 @@ export const info = {
       ],
     },
 
-    {
-      name: "Designed of a mini Autonomous Vehicle w/Manchester Robotics",
-      location: "Nuevo León, México",
-      startDate: "Mar 2023",
-      endDate: "Jun 2023",
-      description: [
-        "Developed software using ROS, OpenCV libraries in python, and Yolov5 to create an autonomous vehicle implementing PID controllers, and computer vision for traffic lights and signals detection.",
-      ],
-    },
 
     {
       name: "Aztech Robotics Coach Program @FIRST Robotics Competition",
@@ -65,13 +54,23 @@ export const info = {
 
   education: [
     {
+      name: "M.S. in Computational Science @Tecnológico de Monterrey",
+      location: "Nuevo León, México",
+      startDate: "Aug 2024",
+      endDate: "Current",
+      description: [
+        "Expected graduation Jun. 2026",
+      ],
+    },
+    {
       name: "B.S. in Robotics and Digital Systems @Tecnológico de Monterrey",
       location: "Nuevo León, México",
       startDate: "Aug 2020",
       endDate: "Jun 2024",
       description: [
-        "Expected graduation date: June 2024.",
         "Member of the 7th generation of Líderes del Mañana scholarship.",
+        "Mention of excellence, given for an outstanding academic performance and being part of the top 1% of graduates.",
+        "Excellence in Integral Education Recognition, given to the top 5% of graduates who have demonstrated outstanding participation in student formation activities.",
       ],
     },
   ],
@@ -95,7 +94,7 @@ export const info = {
       title: "Mini Autonomous Vehicle using ROS w/Manchester Robotics",
       isFeatured: true,
       thumbnail: "/assets/images/puzzlebot.png",
-      githubUrl: "https://github.com/soyhorteconh/Complete_design_of_a_hardware_architecture_to_generate_an_arcade_game_using_FPGA",
+      githubUrl: "https://github.com/soyhorteconh/Autonomous_Vehicle",
       liveUrl: "https://youtu.be/77gnFxZoYIk?si=tn5KtEiKdXyQDMPk",
     },
     {
@@ -104,13 +103,6 @@ export const info = {
       thumbnail: "/assets/images/ducks.png",
       githubUrl: "https://github.com/soyhorteconh/Ducks_distance_detection",
       liveUrl: "https://youtu.be/BHiRZZy_hjA",
-    },
-    {
-      title: "Hardware architecture for an arcade videogame using FPGA's w/Intel",
-      isFeatured: true,
-      thumbnail: "/assets/images/videogame.png",
-      githubUrl: "https://github.com/soyhorteconh/Complete_design_of_a_hardware_architecture_to_generate_an_arcade_game_using_FPGA",
-      liveUrl: "https://youtu.be/JP0nYJHBPCY",
     },
     {
       title: "Research Project: Bioinformatic analysis of differentially expressed genes in colon cancer using Rstudio (SMBB 2021, p.403).",

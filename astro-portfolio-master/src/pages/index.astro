@@ -26,7 +26,7 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
     <style>
         /* Estilos para las columnas (puedes personalizar según sea necesario) */
         .column {
-            width: 50%;
+            width: 33%;
             box-sizing: border-box;
             padding: 10px;
             float: left;
@@ -48,16 +48,29 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
       <Experience title={"EDUCATION"} details={info.education} />
       <Experience title={"EXPERIENCE"} details={info.experience} />
       <section>
+        <h2 class="w-[12rem] dark:text-light mt-16">PUBLICATIONS</h2>
         <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
         <ProjectsWrapper projects={featureProjects} />
-        <h2 class="w-[15rem] dark:text-light mt-16">ACHIEVEMENTS</h2>
+        <h2 class="w-[12rem] dark:text-light mt-16">ACHIEVEMENTS</h2>
 
         <!-- ACHIEVEMENTS -->
         <!-- Columna 1 -->
         <div class="column">
-            <h3 class="w-[15rem] dark:text-light mt-16">Second-place winner at HackMTY 2022</h3>
+            <h3 class="w-[15rem] dark:text-light mt-16">Robotics Engineering Graduation 2024</h3>
             <a href="https://devpost.com/software/sistec" target="_blank">
-                <img src="/assets/images/HackMty.png" title="HackMty2022" width="100%" alt="HackMty">
+                <img src="/assets/images/engineer.png" title="Graduation 2024" width="100%" alt="Graduation">
+            </a>
+            <h3 class="w-[15rem] dark:text-light mt-16">Awarded at Expo Ingenierías 2022 </h3>
+            <a href="/assets/files/ObjectDetection_UnmannedUnderwaterVehicles.pdf" target="_blank">
+                <img src="/assets/images/ExpoIng.png" title="Expo Ingenierías" width="100%" alt="HackMty">
+            </a>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="column">
+            <h3 class="w-[15rem] dark:text-light mt-16">Excellence in Integral Education Recognition 2024 </h3>
+            <a href="/assets/files/ObjectDetection_UnmannedUnderwaterVehicles.pdf" target="_blank">
+                <img src="/assets/images/life.png" title="Excellence in Integral Education Recognition" width="100%" alt="HackMty">
             </a>
             <h3 class="w-[15rem] dark:text-light mt-16">Líderes del Mañana Scholarship @Tecnológico de Monterrey</h3>
             <a href="/assets/files/LideresDelManana.pdf" target="_blank">
@@ -65,11 +78,11 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
             </a>
         </div>
 
-        <!-- Columna 2 -->
+        <!-- Columna 3 -->
         <div class="column">
-            <h3 class="w-[15rem] dark:text-light mt-16">Awarded at Expo Ingenierías 2022 </h3>
-            <a href="/assets/files/ObjectDetection_UnmannedUnderwaterVehicles.pdf" target="_blank">
-                <img src="/assets/images/ExpoIng.png" title="Expo Ingenierías" width="100%" alt="HackMty">
+            <h3 class="w-[15rem] dark:text-light mt-16">Second-place winner at HackMTY 2022</h3>
+            <a href="https://devpost.com/software/sistec" target="_blank">
+                <img src="/assets/images/HackMty.png" title="HackMty2022" width="100%" alt="HackMty">
             </a>
             <h3 class="w-[15rem] dark:text-light mt-16">FIRST Robotics Championship Houston 2018 and 2019</h3>
             <a href="https://www.thebluealliance.com/team/4775/history" target="_blank">
