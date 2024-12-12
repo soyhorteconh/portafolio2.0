@@ -47,8 +47,27 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
       <img src="/assets/images/tec.png" title="Academic experience"/>
       <Experience title={"EDUCATION"} details={info.education} />
       <Experience title={"EXPERIENCE"} details={info.experience} />
+
       <section>
         <h2 class="w-[12rem] dark:text-light mt-16">PUBLICATIONS</h2>
+        <br>
+
+      <table>
+          <tr>
+              <td width="85%">
+                  <b> Análisis bioinformático de genes diferencialmente expresados involucrados en el desarrollo de cáncer de colon</b><br>
+                  <medium>(<i>Bioinformatic analysis of differentially expressed genes in colon cancer</i>) </medium><br>
+                  <small>Frida Cano F., Gala Flores G., <a style="color: #33ccff;"><i>Hortencia A. Ramírez V.</i></a>, Gabriela Cortés O., Harumi C. Manzano Y., Diana P. López E., Leonardo M. Cañete, Aurora A. Pérez.<br>
+                  <a href="https://smbb.mx/wp-content/uploads/2022/03/Revista-vol-25_4-MEMORIAS-XIX-Congreso-Nacional.pdf" target="_blank"><u>SMBB 2021, p.403</u></a>, ISSN: 0188-4786.
+                  </small>
+              </td>
+              <td width="10%" style="text-align: right; vertical-align: top;">
+                  Sept. 2021 <br>
+              </td>
+          </tr>
+      </table>
+
+
         <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
         <ProjectsWrapper projects={featureProjects} />
         <h2 class="w-[12rem] dark:text-light mt-16">ACHIEVEMENTS</h2>

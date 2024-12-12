@@ -1,8 +1,8 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Hortencia A. Ramírez-Vázquez",
+  name: "Hortencia A. Ramírez Vázquez",
   jobDescription: "Robotics Engineer",
-  about: `I’m a M.S. in Computational Science student @Tecnológico de Monterrey.`,
+  about: `I’m a MSc in Computer Science student @Tecnológico de Monterrey.`,
   paragraph: 'My academic path has been fueled by an insatiable curiosity and a constant eagerness to learn about various robotics-related topics. I’m a passionate about research and development.',
 
   experience: [
@@ -69,8 +69,31 @@ export const info = {
       endDate: "Jun 2024",
       description: [
         "Member of the 7th generation of Líderes del Mañana scholarship.",
-        "Mention of excellence, given for an outstanding academic performance and being part of the top 1% of graduates.",
-        "Excellence in Integral Education Recognition, given to the top 5% of graduates who have demonstrated outstanding participation in student formation activities.",
+        "- Mention of excellence, given for an outstanding academic performance and being part of the top 1% of graduates.",
+        "- Excellence in Integral Education Recognition, given to the top 5% of graduates who have demonstrated outstanding participation in student formation activities.",
+      ],
+    },
+  ],
+
+  publications: [
+    {
+      name: "M.S. in Computational Science @Tecnológico de Monterrey",
+      location: "Nuevo León, México",
+      startDate: "Aug 2024",
+      endDate: "Current",
+      description: [
+        "Expected graduation Jun. 2026",
+      ],
+    },
+    {
+      name: "B.S. in Robotics and Digital Systems @Tecnológico de Monterrey",
+      location: "Nuevo León, México",
+      startDate: "Aug 2020",
+      endDate: "Jun 2024",
+      description: [
+        "Member of the 7th generation of Líderes del Mañana scholarship.",
+        "- Mention of excellence, given for an outstanding academic performance and being part of the top 1% of graduates.",
+        "- Excellence in Integral Education Recognition, given to the top 5% of graduates who have demonstrated outstanding participation in student formation activities.",
       ],
     },
   ],
